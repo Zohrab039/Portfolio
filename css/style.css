@@ -1,0 +1,16 @@
+/* nav-bar section start */
+#nav-bar {
+    display: inline-block;
+}
+
+.nav-bar-class {
+    display: flex;
+    /* justify-content: space-around; */
+}
+
+.nav-bar-item ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* nav-bar section end */
