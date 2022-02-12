@@ -60,5 +60,6 @@
     display: flex;
 }
 :root{
-    --main-color: #333;
+    --main-color: #fff;
+    --hover-color: #333;
 }
