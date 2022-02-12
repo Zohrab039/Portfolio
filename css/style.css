@@ -26,9 +26,10 @@
 }
 
 .nav-bar-item ul li a{
-    color: black;
+    color: var(--main-color);
     font-weight: 500;
 }
+
 .name{
     margin-top: 20px;
     margin-left: 60px;
