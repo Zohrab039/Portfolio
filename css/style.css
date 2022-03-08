@@ -65,11 +65,20 @@ table {
   font-weight: bold;
   font-size: 22px;
   margin-top: 20px;
-  margin-left: 50px;
+  margin-left: 60px;
   opacity: .9;
+}
+
+.portfolio-header .nav-bar ul {
+  margin-left: 685px;
 }
 
 .portfolio-header .nav-bar ul li a {
   text-decoration: none;
   padding: 0 22px;
+  font-family: Poppins;
+  color: #333;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 60px;
 }
