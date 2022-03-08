@@ -48,6 +48,12 @@ table {
   border-spacing: 0;
 }
 
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .portfolio-header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -61,4 +67,9 @@ table {
   margin-top: 20px;
   margin-left: 50px;
   opacity: .9;
+}
+
+.portfolio-header .nav-bar ul li a {
+  text-decoration: none;
+  padding: 0 22px;
 }
