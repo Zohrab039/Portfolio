@@ -5,3 +5,10 @@
 @import './general/colors';
 @import './general/reset';
 @import './general/variables';
+
+.portfolio-header{
+    display: flex;
+    .logo{
+        font-family: Poppins;
+    }
+}
