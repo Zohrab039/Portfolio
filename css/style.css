@@ -1,3 +1,23 @@
+.get-in-touch-btn a {
+  font-family: Poppins;
+  font-weight: 500;
+  background: #333;
+  border: 2px solid #333;
+  margin: 0 auto;
+  text-decoration: none;
+  color: #fff;
+  padding: 13px 32px;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+.get-in-touch-btn a:hover {
+  background: #fff;
+  color: #333;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,

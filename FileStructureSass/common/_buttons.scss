@@ -1,1 +1,20 @@
-@import '../general/colors'
+@import '../general/colors';
+
+.get-in-touch-btn{
+    a{
+        font-family: Poppins;
+        font-weight: 500;
+        background: $main-color;
+        border: 2px solid $main-color;
+        margin: 0 auto;
+        text-decoration: none;
+        color: #fff;
+        padding: 13px 32px;
+        transition: all .3s ease;
+        &:hover{
+            background: #fff;
+            color: $main-color;
+            transition: all .3s ease;
+        }
+    }
+}
