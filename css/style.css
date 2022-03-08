@@ -75,10 +75,21 @@ table {
 
 .portfolio-header .nav-bar ul li a {
   text-decoration: none;
-  padding: 0 22px;
+  padding: 5px 22px;
   font-family: Poppins;
   color: #333;
   font-weight: 500;
   font-size: 15px;
   line-height: 60px;
+  border: 1px solid transparent;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+.portfolio-header .nav-bar ul li a:hover {
+  color: #fff;
+  border: 1px solid #333;
+  background: #333;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
 }

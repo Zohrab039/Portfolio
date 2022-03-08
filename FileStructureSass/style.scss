@@ -19,14 +19,23 @@
         ul{
             margin-left: 685px;
             li{
+                
                 a{
                     text-decoration: none;
-                    padding: 0 22px;
+                    padding: 5px 22px;
                     font-family: Poppins;
                     color: $main-color;
                     font-weight: 500;
                     font-size: 15px;
                     line-height: 60px;
+                    border: 1px solid transparent;
+                    transition: all .3s ease;
+                    &:hover{
+                        color: #fff;
+                        border: 1px solid $main-color;
+                        background: $main-color;
+                        transition: all .3s ease;
+                    }
                 }
             }
         }
