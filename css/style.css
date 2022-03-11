@@ -68,6 +68,10 @@ table {
   border-spacing: 0;
 }
 
+h1 {
+  font-family: Poppins;
+}
+
 .flex {
   display: -webkit-box;
   display: -ms-flexbox;
