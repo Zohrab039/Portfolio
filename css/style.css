@@ -129,6 +129,10 @@ h1 {
   transition: all .3s ease;
 }
 
+#portfolio-all .container .row .main-image {
+  margin-left: 60px;
+}
+
 #portfolio-all .container .row .main-image img {
   width: 435px;
   height: 535px;
