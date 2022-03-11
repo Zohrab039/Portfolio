@@ -89,13 +89,13 @@ h1 {
       justify-content: space-around;
 }
 
-.portfolio-header {
+#portfolio-all .container .row .portfolio-header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.portfolio-header .logo {
+#portfolio-all .container .row .portfolio-header .logo {
   font-family: Poppins;
   font-weight: bold;
   font-size: 22px;
@@ -104,11 +104,11 @@ h1 {
   opacity: .9;
 }
 
-.portfolio-header .nav-bar ul {
+#portfolio-all .container .row .portfolio-header .nav-bar ul {
   margin-left: 685px;
 }
 
-.portfolio-header .nav-bar ul li a {
+#portfolio-all .container .row .portfolio-header .nav-bar ul li a {
   text-decoration: none;
   padding: 5px 22px;
   font-family: Poppins;
@@ -121,7 +121,7 @@ h1 {
   transition: all .3s ease;
 }
 
-.portfolio-header .nav-bar ul li a:hover {
+#portfolio-all .container .row .portfolio-header .nav-bar ul li a:hover {
   color: #fff;
   border: 1px solid #333;
   background: #333;

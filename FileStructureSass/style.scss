@@ -5,40 +5,46 @@
 @import './general/variables';
 @import './general/general';
 
-.portfolio-header {
-    display: flex;
-
-    .logo {
-        font-family: Poppins;
-        font-weight: bold;
-        font-size: 22px;
-        margin-top: 20px;
-        margin-left: 60px;
-        opacity: .9;
-    }
-
-    .nav-bar {
-        ul {
-            margin-left: 685px;
-
-            li {
-
-                a {
-                    text-decoration: none;
-                    padding: 5px 22px;
+#portfolio-all{
+    .container{
+        .row{
+            .portfolio-header {
+                display: flex;
+            
+                .logo {
                     font-family: Poppins;
-                    color: $main-color;
-                    font-weight: 500;
-                    font-size: 15px;
-                    line-height: 60px;
-                    border: 1px solid transparent;
-                    transition: all .3s ease;
-
-                    &:hover {
-                        color: #fff;
-                        border: 1px solid $main-color;
-                        background: $main-color;
-                        transition: all .3s ease;
+                    font-weight: bold;
+                    font-size: 22px;
+                    margin-top: 20px;
+                    margin-left: 60px;
+                    opacity: .9;
+                }
+            
+                .nav-bar {
+                    ul {
+                        margin-left: 685px;
+            
+                        li {
+            
+                            a {
+                                text-decoration: none;
+                                padding: 5px 22px;
+                                font-family: Poppins;
+                                color: $main-color;
+                                font-weight: 500;
+                                font-size: 15px;
+                                line-height: 60px;
+                                border: 1px solid transparent;
+                                transition: all .3s ease;
+            
+                                &:hover {
+                                    color: #fff;
+                                    border: 1px solid $main-color;
+                                    background: $main-color;
+                                    transition: all .3s ease;
+                                }
+                            }
+                        }
                     }
                 }
             }
