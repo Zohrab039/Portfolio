@@ -50,8 +50,9 @@
             }
             .content{
                 background-color: $content-bc;
+                width: 1245px;
+                margin-left: 60px;
                 .main-image{
-                    margin-left: 60px;
                     img{
                         width: 435px;
                         height: 535px;

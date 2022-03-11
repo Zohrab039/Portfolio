@@ -18,14 +18,15 @@
   transition: all .3s ease;
 }
 
-.border-left {
-  width: 60px;
+/* .border-left{
+    width: 60px;
+    background-color: white;
+    z-index: 1;
 }
 
-.border-right {
-  width: 60px;
-}
-
+.border-right{
+    width: 60px;
+} */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -139,9 +140,7 @@ h1 {
 
 #portfolio-all .container .row .content {
   background-color: #f6fbff;
-}
-
-#portfolio-all .container .row .content .main-image {
+  width: 1245px;
   margin-left: 60px;
 }
 
