@@ -129,11 +129,15 @@ h1 {
   transition: all .3s ease;
 }
 
-#portfolio-all .container .row .main-image {
+#portfolio-all .container .row .content {
+  background-color: #f6fbff;
+}
+
+#portfolio-all .container .row .content .main-image {
   margin-left: 60px;
 }
 
-#portfolio-all .container .row .main-image img {
+#portfolio-all .container .row .content .main-image img {
   width: 435px;
   height: 535px;
 }

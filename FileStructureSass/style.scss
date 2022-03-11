@@ -48,13 +48,16 @@
                     }
                 }
             }
-            .main-image{
-                margin-left: 60px;
-                img{
-                    width: 435px;
-                    height: 535px;
+            .content{
+                background-color: $content-bc;
+                .main-image{
+                    margin-left: 60px;
+                    img{
+                        width: 435px;
+                        height: 535px;
+                    }
+                    
                 }
-                
             }
         }
     }
