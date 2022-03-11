@@ -74,6 +74,12 @@ table {
   display: flex;
 }
 
+.jc-space-between {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
 .portfolio-header {
   display: -webkit-box;
   display: -ms-flexbox;

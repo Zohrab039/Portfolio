@@ -1,3 +1,8 @@
+// jc --> justify-content
 .flex{
     display: flex;
+}
+
+.jc-space-between{
+    justify-content: space-between;
 }
