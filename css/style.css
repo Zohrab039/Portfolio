@@ -80,6 +80,11 @@ table {
           justify-content: space-between;
 }
 
+.jc-space-around {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
 .portfolio-header {
   display: -webkit-box;
   display: -ms-flexbox;
