@@ -43,6 +43,12 @@
                                     background: $main-color;
                                     transition: all .3s ease;
                                 }
+                                &:active {
+                                    color: #fff;
+                                    border: 1px solid $main-color;
+                                    background: $main-color;
+                                    transition: all .3s ease;
+                                }
                             }
                         }
                     }

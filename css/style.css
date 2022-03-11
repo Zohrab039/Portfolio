@@ -138,6 +138,14 @@ h1 {
   transition: all .3s ease;
 }
 
+#portfolio-all .container .row .portfolio-header .nav-bar ul li a:active {
+  color: #fff;
+  border: 1px solid #333;
+  background: #333;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
 #portfolio-all .container .row .content {
   background-color: #f6fbff;
   width: 1245px;
