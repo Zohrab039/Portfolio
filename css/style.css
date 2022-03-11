@@ -128,3 +128,8 @@ h1 {
   -webkit-transition: all .3s ease;
   transition: all .3s ease;
 }
+
+#portfolio-all .container .row .main-image img {
+  width: 435px;
+  height: 535px;
+}
