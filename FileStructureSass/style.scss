@@ -5,9 +5,10 @@
 @import './general/variables';
 @import './general/general';
 
-.portfolio-header{
+.portfolio-header {
     display: flex;
-    .logo{
+
+    .logo {
         font-family: Poppins;
         font-weight: bold;
         font-size: 22px;
@@ -15,12 +16,14 @@
         margin-left: 60px;
         opacity: .9;
     }
-    .nav-bar{
-        ul{
+
+    .nav-bar {
+        ul {
             margin-left: 685px;
-            li{
-                
-                a{
+
+            li {
+
+                a {
                     text-decoration: none;
                     padding: 5px 22px;
                     font-family: Poppins;
@@ -30,7 +33,8 @@
                     line-height: 60px;
                     border: 1px solid transparent;
                     transition: all .3s ease;
-                    &:hover{
+
+                    &:hover {
                         color: #fff;
                         border: 1px solid $main-color;
                         background: $main-color;
